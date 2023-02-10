@@ -9,6 +9,15 @@ body {
     justify-content: space-between;
 }
 
+.lower-header {
+    display: flex;
+    align-items: center;
+}
+
+.random-info {
+    display: flex;
+}
+
 button {
     background: #3882f6;
     color: #F9FAF8;
