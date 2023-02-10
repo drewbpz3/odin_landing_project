@@ -1,5 +1,18 @@
 body {
     display: flex;
     flex-direction: column;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+.upper-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+button {
+    background: #3882f6;
+    color: #F9FAF8;
+    border-color: #F9FAF8;
+    border-radius: 20px;
 }
 
