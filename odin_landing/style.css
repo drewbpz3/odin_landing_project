@@ -1,3 +1,58 @@
 body {
-    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0;
+    flex-grow: 1;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+}
+
+.upper-header {
+    display: flex;
+    justify-content: space-between;
+    height: 72px;
+}
+
+.lower-header {
+    display: flex;
+}
+
+.middle {
+    display: flex;
+    flex-direction: column;
+    flex: auto
+}
+
+.random-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.random-info-text {
+    display: flex;
+}
+
+.cards {
+    display: flex;
+}
+
+.quote {
+    display: flex;
+}
+
+.call {
+
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 72px;
 }
