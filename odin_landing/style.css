@@ -1,6 +1,9 @@
-body {
+* {
     margin: 0;
     padding: 0;
+}
+
+body {
     text-align: center;
     font-family: 'Roboto', arial;
 }
@@ -23,9 +26,12 @@ body {
     font-weight: bold;
 }
 
-a {
+a, .header-links {
     text-decoration: none;
     color: inherit;
+    margin: 0px 15px;
+    font-size: 18px;
+    color: #e5e7eb;
 }
 
 nav {
@@ -48,6 +54,7 @@ nav {
     background-color: #1f2937;
     color: #f9faf8;
     text-align: left;
+    justify-content: center;
 }
 
 .hero-main {
@@ -75,6 +82,7 @@ nav {
 .cards {
     display: flex;
     margin: 10px 90px 45px 90px;
+    justify-content: center;
 }
 
 img {
@@ -95,13 +103,13 @@ img {
 
 h2 {
     font-size: 38px;
-    font-weight: bolder;
+    font-weight: 800;
 }
 .quote-text {
     font-style: italic;
     font-size: 36px;
-    font-weight: lighter;
     margin-bottom: 0;
+    font-weight: 100;
 }
 
 .credit {
