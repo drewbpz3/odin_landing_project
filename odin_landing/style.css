@@ -1,15 +1,23 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
 body {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    margin: 0;
-    flex-grow: 1;
 }
 
 .header {
     display: flex;
     flex-direction: column;
+    min-width: 816.100px;
+    margin: 0;
+    padding: 0 100%;
 }
 
 .upper-header {
@@ -20,12 +28,17 @@ body {
 
 .lower-header {
     display: flex;
+    margin: 0 auto;
 }
 
 .middle {
     display: flex;
     flex-direction: column;
-    flex: auto
+    max-width: 816.172px;
+    margin: 0 auto;
+    flex-direction: auto;
+    align-items:center;
+    justify-content: space-between;
 }
 
 .random-info {
@@ -44,6 +57,11 @@ body {
 
 .quote {
     display: flex;
+    flex-direction: column;
+}
+
+.credit {
+    margin-left: auto;
 }
 
 .call {
@@ -55,4 +73,10 @@ body {
     align-items: center;
     justify-content: center;
     height: 72px;
+    min-width: 100%;
+}
+
+img {
+    height: 100px;
+    width: 100px;
 }
