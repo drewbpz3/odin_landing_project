@@ -36,9 +36,9 @@ body {
     flex-direction: column;
     max-width: 816.172px;
     margin: 0 auto;
-    flex-direction: auto;
     align-items:center;
-    justify-content: space-between;
+    justify-content: space-around;
+    flex-grow: 1;
 }
 
 .random-info {
@@ -53,6 +53,12 @@ body {
 
 .cards {
     display: flex;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
 }
 
 .quote {
