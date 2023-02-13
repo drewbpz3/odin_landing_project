@@ -1,94 +1,66 @@
 html, body {
-    margin: 0;
-    padding: 0;
-    height: 100%;
-    width: 100%;
+
 }
 
 body {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
+
 }
 
 .header {
-    display: flex;
-    flex-direction: column;
-    min-width: 75%;
-    margin: 0;
-    padding: 0 100%;
-    background-color: #1f2937;
 }
 
 .upper-header {
-    display: flex;
-    justify-content: space-between;
-    height: 72px;
+
 }
 
 .lower-header {
-    display: flex;
-    margin: 0 auto;
+
 }
 
 .middle {
-    display: flex;
-    flex-direction: column;
-    margin: 0;
-    min-width: 75%;
-    padding: 0 100%;
-    align-items:center;
-    justify-content: space-around;
-    flex-grow: 1;
+
 }
 
 .random-info {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    max-width: 90%;
+
 }
 
 .random-info-text {
-    display: flex;
+
 }
 
 .cards {
-    display: flex;
+
 }
 
 .card {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
+
 }
 
 .quote {
-    display: flex;
-    flex-direction: column;
-    min-width: 75%;
-    margin: 0;
-    padding: 0 100%;
+
 }
 
 .credit {
-    margin-left: auto;
+
 }
 
 .call {
-    padding: 0 20%;
+
 }
 
 .footer {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 72px;
-    min-width: 100%;
+
 }
 
 img {
-    height: 100px;
-    width: 100px;
+
+}
+
+button {
+
+}
+
+.call-sign-up {
+
 }
