@@ -20,7 +20,7 @@ nav {
     display: flex;
     list-style-type: none;
     justify-content: space-between;
-    padding: 15px 100px;
+    padding: 15px 115px;
 }
 
 .header-logo {
@@ -38,7 +38,7 @@ a {
 
 .lower-header {
     display: flex;
-    padding: 50px 100px;
+    padding: 50px 115px;
     text-align: left;
 }
 
@@ -49,6 +49,8 @@ a {
 .hero {
     font-size: 48px;
     color: #F9FAF8;
+    font-weight: bolder;
+    margin-right: 100px;
 }
 
 .hero-text{
@@ -78,7 +80,7 @@ a {
 .main-top {
     display: flex;
     flex-direction: column;
-    padding: 50px 100px;
+    margin: 50px 200px;
     flex: 1 0 auto
 }
 
@@ -91,11 +93,11 @@ a {
 .cards {
     display: flex;
     flex: 1 1 auto;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 
 .card {
-    width: 100px;
+    width: 125px;
     height: auto;
 
 }
@@ -109,7 +111,7 @@ a {
 }
 
 .main-middle {
-    padding: 75px 100px;
+    padding: 75px 115px;
     display: flex;
     flex-direction: column;
     background-color: #e5e7eb;
@@ -138,7 +140,7 @@ a {
     background-color: #3882f6;
     border: 5px solid #3882f6;
     border-radius: 5px;
-    margin: 75px 100px;
+    margin: 75px 115px;
     padding: 5px 75px;
     display: flex;
     align-items: center;
@@ -170,5 +172,5 @@ a {
 }
 
 footer {
-    padding: 30px 100px;
+    padding: 30px 115px;
 }
