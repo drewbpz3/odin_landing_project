@@ -1,0 +1,39 @@
+body {
+    display: flex;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    flex-direction: column;
+    margin: 0;
+}
+
+header, footer{
+    display: flex;
+    flex-direction: column;
+    color: #F9FAF8;
+    background-color: #1f2937;
+    margin: 0;
+}
+
+nav {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    padding: 0 100px;
+}
+
+a {
+    color: inherit;
+    text-decoration: inherit;
+}
+
+.lower-header {
+    display: flex;
+    padding: 50px 100px;
+}
+.hero-img {
+    height: 300px;
+    width: auto;
+}
+
+.main-top {
+    
+}
